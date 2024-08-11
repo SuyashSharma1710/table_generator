@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Sankofa+Display&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return show()">
+        <label for="number">Enter the table number</label>
+        <input type="number" id="num" required>
+        <label for="upto">Upto which number?</label>
+        <input type="number" id="upto" required>
+        
+        <button id="submit">Generate</button>
+        <input type="reset" id="reset" onclick="reseter()">
+    </form>
+
+    <div id="display">
+        <!-- Generated table will appear here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
