@@ -47,12 +47,10 @@ input {
   color: #80d0c7;
   padding: 0 10px;
 }
-#submit {
-  height: 20px;
-  width: 20vw;
-}
+
 #submit{
-    height: 30px;
+  height: 30px;
+  width: 20vw;
   background-color: #8ec5fc;
   background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
   border: 1px solid white;
@@ -71,6 +69,18 @@ input {
   color: rgb(255, 255, 255);
 }
 
+#download{
+  height: 30px;
+  width: 20vw;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  visibility: hidden;
+}
+
 @media (max-width: 712px) {
     body{
         flex-direction: column;
@@ -86,7 +96,7 @@ input {
         font-size: 20px;
     }
 
-    #submit , #reset , input{
+    #submit , #reset , #download, input{
         width: 40dvw;
     }
     
