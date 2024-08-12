@@ -1,7 +1,7 @@
 function table(num, upto) {
     let content = "";
     for (let i = 1; i <= upto; i++) {
-        content += `${num} x ${i} = ${num * i}\n`;
+        content += `${num} X ${i} = ${num * i}\n`;
     }
 
     // Display the table with <br> for line breaks
